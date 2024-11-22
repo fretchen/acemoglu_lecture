@@ -5,5 +5,6 @@ format: jb-book
 root: intro
 chapters:
 - file: chapter_2_intro.ipynb
-- file: prisoner_dilemma.ipynb
-- file: common_pool.ipynb
+  sections:
+    - file: prisoner_dilemma.ipynb
+    - file: common_pool.ipynb
