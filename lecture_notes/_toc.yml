@@ -1,0 +1,9 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: chapter_2_intro.ipynb
+- file: prisoner_dilemma.ipynb
+- file: common_pool.ipynb
