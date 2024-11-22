@@ -31,6 +31,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pipx install poetry
         poetry install
 
     # (optional) Cache your executed notebooks between runs
