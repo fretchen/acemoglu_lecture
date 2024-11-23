@@ -8,3 +8,4 @@ chapters:
   sections:
     - file: prisoner_dilemma.ipynb
     - file: common_pool.ipynb
+- file: voting_intro.ipynb
