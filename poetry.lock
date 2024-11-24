@@ -2435,6 +2435,28 @@ rtd = ["myst-parser", "sphinx (>=3.0)", "sphinx-book-theme"]
 testing = ["coverage (<5.0)", "jupyter-book", "pytest (>=5.4,<6.0)", "pytest-cov (>=2.8,<3.0)", "pytest-regressions"]
 
 [[package]]
+name = "sphinx-proof"
+version = "0.2.0"
+description = "A Sphinx extension for producing proofs, theorems, axioms, etc."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "sphinx-proof-0.2.0.tar.gz", hash = "sha256:12e7deb3feb3e16b9d59f7c3db8bb16cf6d465bc209aa6b99924d1000f9b9ce9"},
+    {file = "sphinx_proof-0.2.0-py3-none-any.whl", hash = "sha256:fcfec4bfc029ff30c41c44dbe5da9051ff0cee02688c6c6e325c21e00aa3b68a"},
+]
+
+[package.dependencies]
+docutils = ">=0.15"
+sphinx = "*"
+sphinx-book-theme = "*"
+
+[package.extras]
+all = ["beautifulsoup4", "black", "coverage", "defusedxml", "flake8", "myst-parser", "pre-commit", "pytest (>=7.1,<8.0)", "pytest-cov", "pytest-regressions", "sphinx (>=5.0)", "sphinx-book-theme", "sphinx-togglebutton", "sphinxcontrib-bibtex", "texsoup"]
+code-style = ["black", "flake8", "pre-commit"]
+rtd = ["myst-parser", "sphinx (>=5.0)", "sphinx-book-theme", "sphinx-togglebutton", "sphinxcontrib-bibtex"]
+testing = ["beautifulsoup4", "coverage", "defusedxml", "myst-parser", "pytest (>=7.1,<8.0)", "pytest-cov", "pytest-regressions", "texsoup"]
+
+[[package]]
 name = "sphinx-thebe"
 version = "0.3.1"
 description = "Integrate interactive code blocks into your documentation with Thebe and Binder."
@@ -2851,4 +2873,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "8321d62b8437da89241a46612fa3498fb04b00b8d2bf47f13a7ece01e2a640ea"
+content-hash = "921689123d06fbdc2887d62978c3eacdc5716bb190d362932bf0d698332ed507"
