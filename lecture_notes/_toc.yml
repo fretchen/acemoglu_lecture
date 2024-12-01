@@ -9,3 +9,4 @@ chapters:
     - file: prisoner_dilemma.ipynb
     - file: common_pool.ipynb
 - file: voting_intro.ipynb
+- file: probabilistic_voting.ipynb
